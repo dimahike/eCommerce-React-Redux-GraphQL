@@ -1,7 +1,15 @@
+import Header from './components/Header';
+import Hompage from './pages/Homepage';
+
+import './default.scss';
+
 function App() {
   return (
     <div className="App">
-      <h1>hello App</h1>
+      <Header />
+      <div className="main">
+        <Hompage />
+      </div>
     </div>
   );
 }
